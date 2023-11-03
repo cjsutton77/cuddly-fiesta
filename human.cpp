@@ -1,6 +1,8 @@
 // some comment here
 #include <iostream>
 
+//Making some changes
+
 class Human
 {
 private:
@@ -17,7 +19,7 @@ public:
   void getName(); //std::cout << name << std::endl;
   void getAge(); //std::cout << age << std::endl;
   void setAge(int newAge); //name = newName;
-
+  void goToRestroom() std::cout << "Flush" << std::endl;
   // constructor with list initialization
   Human(std::string personName, int personAge): age(personAge),name(personName)
   {
